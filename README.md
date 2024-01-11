@@ -1,0 +1,2 @@
+# RecordSpringApplicationHelper
+依赖SpringBoot提供的ApplicationStartup统计应用启动时的详细耗时

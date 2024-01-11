@@ -172,60 +172,6 @@ public static void main(String[] args) {
             }
         ],
         "children": []
-    },
-    {
-        "id": 263,
-        "parentId": 261,
-        "duration": "PT0.45S",
-        "startTime": "2024-01-11T06:55:52.284Z",
-        "endTime": "2024-01-11T06:55:52.734Z",
-        "name": "spring.beans.instantiate",
-        "tags": [
-            {
-                "key": "beanName",
-                "value": "redisConnectionFactory"
-            }
-        ],
-        "children": [
-            {
-                "id": 266,
-                "parentId": 263,
-                "duration": "PT0.356S",
-                "startTime": "2024-01-11T06:55:52.302Z",
-                "endTime": "2024-01-11T06:55:52.658Z",
-                "name": "spring.beans.instantiate",
-                "tags": [
-                    {
-                        "key": "beanName",
-                        "value": "lettuceClientResources"
-                    }
-                ],
-                "children": []
-            }
-        ]
-    },
-    {
-        "id": 14,
-        "parentId": 9,
-        "duration": "PT0.115S",
-        "startTime": "2024-01-11T06:55:47.574Z",
-        "endTime": "2024-01-11T06:55:47.689Z",
-        "name": "spring.data.repository.scanning",
-        "tags": [
-            {
-                "key": "dataModule",
-                "value": "MongoDB"
-            },
-            {
-                "key": "basePackages",
-                "value": "cn.linkkids.channel.goods"
-            },
-            {
-                "key": "repository.count",
-                "value": "0"
-            }
-        ],
-        "children": []
     }
 ]
 ```
